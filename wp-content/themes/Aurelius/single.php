@@ -35,7 +35,9 @@
         </div>
         <div id="control_btn_container" class="index-mod-fixed toolbar hide" style="display: block;">
              <div class="toolbar-inner ui-btn-wrap">
+                 <?php if(get_post_meta(get_the_ID(),'link',true))){?>}
                  <a href="<?php echo get_post_meta(get_the_ID(),'link',true);?>" class="ui-btn-lg ui-btn-primary">开始赚钱</a>
+                 <?php }?>
              </div>
          </div>
     </div>
