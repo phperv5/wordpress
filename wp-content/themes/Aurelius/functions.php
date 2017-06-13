@@ -79,7 +79,7 @@ function getNavigation()
     $category = get_the_category();
     if (isset($category[0])) {
         $categoryArr = $category[0];
-        $url = "<h2 class='ui-arrowlink ui-border-b'><a href='/'>首页</a>&gt;<a href='/?cat={$categoryArr->cat_ID}'>{$categoryArr->cat_name}</a></h2>";
+        $url = "<h2 class='ui-arrowlink ui-border-b' style='font-size: 14px;'><a href='/'>首页</a>&gt;<a href='/?cat={$categoryArr->cat_ID}'>{$categoryArr->cat_name}</a></h2>";
         return $url;
     }
     return '';

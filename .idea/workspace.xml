@@ -38,12 +38,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="single.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Aurelius/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-              <folding />
+            <state relative-caret-position="532">
+              <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+              <folding>
+                <element signature="e#1411#1456#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,17 +70,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Aurelius/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="84" column="14" lean-forward="true" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+            <state relative-caret-position="485">
+              <caret line="81" column="53" lean-forward="false" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="77" />
               <folding>
-                <marker date="1497345475186" expanded="true" signature="2015:2019" ph="&gt;" />
-                <marker date="1497345475186" expanded="true" signature="2286:2340" ph="..." />
-                <marker date="1497345475186" expanded="true" signature="2518:2578" ph="..." />
-                <marker date="1497345475186" expanded="true" signature="2549:2578" ph="..." />
-                <marker date="1497345475186" expanded="true" signature="2872:2925" ph="..." />
+                <marker date="1497345750688" expanded="true" signature="2004:2020" ph="..." />
+                <marker date="1497345750688" expanded="true" signature="2040:2044" ph="&gt;" />
+                <marker date="1497345750688" expanded="true" signature="2311:2365" ph="..." />
+                <marker date="1497345750688" expanded="true" signature="2543:2603" ph="..." />
+                <marker date="1497345750688" expanded="true" signature="2574:2603" ph="..." />
+                <marker date="1497345750688" expanded="true" signature="2897:2950" ph="..." />
               </folding>
             </state>
           </provider>
@@ -330,7 +333,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3527000" />
+    <option name="totallyTimeSpent" value="3814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1924" height="1056" extended-state="0" />
@@ -503,24 +506,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Aurelius/single.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Aurelius/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="485">
+          <caret line="81" column="53" lean-forward="false" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="77" />
+          <folding>
+            <marker date="1497345750688" expanded="true" signature="2004:2020" ph="..." />
+            <marker date="1497345750688" expanded="true" signature="2040:2044" ph="&gt;" />
+            <marker date="1497345750688" expanded="true" signature="2311:2365" ph="..." />
+            <marker date="1497345750688" expanded="true" signature="2543:2603" ph="..." />
+            <marker date="1497345750688" expanded="true" signature="2574:2603" ph="..." />
+            <marker date="1497345750688" expanded="true" signature="2897:2950" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Aurelius/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Aurelius/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="84" column="14" lean-forward="true" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+        <state relative-caret-position="532">
+          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
           <folding>
-            <marker date="1497345475186" expanded="true" signature="2015:2019" ph="&gt;" />
-            <marker date="1497345475186" expanded="true" signature="2286:2340" ph="..." />
-            <marker date="1497345475186" expanded="true" signature="2518:2578" ph="..." />
-            <marker date="1497345475186" expanded="true" signature="2549:2578" ph="..." />
-            <marker date="1497345475186" expanded="true" signature="2872:2925" ph="..." />
+            <element signature="e#1411#1456#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

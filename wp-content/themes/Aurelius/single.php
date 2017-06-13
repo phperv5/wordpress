@@ -24,7 +24,7 @@
                                 <div class="content-block-inner mod-gift">
                                     <?php echo getNavigation();?>
                                     <div class="mod-gift-info">
-                                        <div class="ui-nowrap" style="padding-bottom: 30px;"><?php echo the_content(); ?></div>
+                                        <div class="ui-nowrap" style="padding-bottom: 30px;font-size: 14px;"><?php echo the_content(); ?></div>
                                     </div>
                                 </div>
                             </div>
