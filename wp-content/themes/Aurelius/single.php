@@ -14,6 +14,7 @@
                     <div class="right share"></div>
                 </div>
             </div>
+            <?php the_category(); echo 111;?>
             <div class="pages navbar-through">
                 <div data-page="gift-detail" class="page page-on-center">
                     <div class="page-content">
