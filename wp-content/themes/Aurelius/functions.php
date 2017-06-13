@@ -1,6 +1,6 @@
 <?php
 /** widgets */
-add_filter( 'show_admin_bar', '__return_false' );
+add_filter('show_admin_bar', '__return_false');
 add_theme_support('post-thumbnails');
 if (function_exists('register_sidebar')) {
     register_sidebar(array(
@@ -55,34 +55,35 @@ function get_attachment_image()
 }
 
 /**
-* getPostViews()函数
-* 功能：获取阅读数量
-* 在需要显示浏览次数的位置，调用此函数
-* @Param object|int $postID   文章的id
-* @Return string $count   文章阅读数量
-*/
-function getPostViews( $postID ) {
-     $count_key = 'post_views_count';
-     $count = get_post_meta( $postID, $count_key, true );
-     if( $count=='' ) {
-         delete_post_meta( $postID, $count_key );
-         add_post_meta( $postID, $count_key, '0' );
-         return "0";
-     }
+ * getPostViews()函数
+ * 功能：获取阅读数量
+ * 在需要显示浏览次数的位置，调用此函数
+ * @Param object|int $postID   文章的id
+ * @Return string $count   文章阅读数量
+ */
+function getPostViews($postID)
+{
+    $count_key = 'post_views_count';
+    $count = get_post_meta($postID, $count_key, true);
+    if ($count == '') {
+        delete_post_meta($postID, $count_key);
+        add_post_meta($postID, $count_key, '0');
+        return "0";
+    }
     return $count;
- }
+}
 
 //导航
-function getNavigation(){
+function getNavigation()
+{
     $category = get_the_category();
-    if(isset($category[0])){
+    if (isset($category[0])) {
         $categoryArr = $category[0];
-        $url = "<span><a href='/'>首页</a>&gt;<a href='/?cat={$categoryArr['cat_ID']}'>{$categoryArr['cat_name']}</a></span>";
+        $url = "<span><a href='/'>首页</a>&gt;<a href='/?cat={$categoryArr->cat_ID}'>{$categoryArr->cat_name}</a></span>";
         return $url;
     }
     return '';
 }
-
 
 
 function aurelius_comment($comment, $args, $depth)
