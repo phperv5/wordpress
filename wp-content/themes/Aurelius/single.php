@@ -14,10 +14,6 @@
                     <div class="right share"></div>
                 </div>
             </div>
-            <?php
-            $category = get_the_category();
-            var_dump($category);
-            ?>
             <div class="pages navbar-through">
                 <div data-page="gift-detail" class="page page-on-center">
                     <div class="page-content">
@@ -26,7 +22,7 @@
                             <div class="list-block gift-detail-list ui-panel">
 
                                 <div class="content-block-inner mod-gift">
-                                    <h2 class="ui-arrowlink ui-border-b">首页>苹果</h2>
+                                    <h2 class="ui-arrowlink ui-border-b"><?php echo getNavigation();?></h2>
                                     <div class="mod-gift-info">
                                         <div class="ui-nowrap" style="padding-bottom: 30px;"><?php echo the_content(); ?></div>
                                     </div>

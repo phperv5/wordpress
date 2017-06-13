@@ -72,11 +72,17 @@ function getPostViews( $postID ) {
     return $count;
  }
 
-function the_slug() {
-    $post_data = get_post($post->ID, ARRAY_A);
-    $slug = $post_data['post_name'];
-    return $slug; 
+//导航
+function getNavigation(){
+    $category = get_the_category();
+    if(isset($category[0])){
+        $categoryArr = $category[0];
+        $url = "<span><a href='/'>首页</a>><a href='/?cat='.{$categoryArr['cat_ID']}>{$categoryArr['cat_name']}</a></span>";
+        return $url;
+    }
+    return '';
 }
+
 
 
 function aurelius_comment($comment, $args, $depth)
@@ -101,5 +107,6 @@ $GLOBALS['comment'] = $comment; ?>
         </div>
     </div>
     <?php } ?>
+
 
 
