@@ -77,7 +77,7 @@ function getNavigation(){
     $category = get_the_category();
     if(isset($category[0])){
         $categoryArr = $category[0];
-        $url = "<span><a href='/'>首页</a>><a href='/?cat={$categoryArr['cat_ID']}'>{$categoryArr['cat_name']}</a></span>";
+        $url = "<span><a href='/'>首页</a>&gt;<a href='/?cat={$categoryArr['cat_ID']}'>{$categoryArr['cat_name']}</a></span>";
         return $url;
     }
     return '';
